@@ -1,0 +1,200 @@
+{
+  "patients": [
+    {
+      "id": "patient1",
+      "email": "jane.doe@email.com",
+      "password": "password123",
+      "role": "patient",
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "phone": "(555) 123-4567",
+      "dateOfBirth": "1985-03-15",
+      "medicalHistory": ["Hypertension", "Diabetes Type 2"],
+      "insuranceId": "INS-123456789"
+    },
+    {
+      "id": "patient2",
+      "email": "john.smith@email.com",
+      "password": "password123",
+      "role": "patient",
+      "firstName": "John",
+      "lastName": "Smith",
+      "phone": "(555) 234-5678",
+      "dateOfBirth": "1990-07-22",
+      "medicalHistory": ["Asthma"],
+      "insuranceId": "INS-987654321"
+    },
+    {
+      "id": "patient3",
+      "email": "sarah.wilson@email.com",
+      "password": "password123",
+      "role": "patient",
+      "firstName": "Sarah",
+      "lastName": "Wilson",
+      "phone": "(555) 345-6789",
+      "dateOfBirth": "1978-11-08",
+      "medicalHistory": [],
+      "insuranceId": "INS-456789123"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "doctor1",
+      "email": "dr.emily.white@clinic.com",
+      "password": "password123",
+      "role": "doctor",
+      "firstName": "Dr. Emily",
+      "lastName": "White",
+      "phone": "(555) 456-7890",
+      "specialty": "Cardiology",
+      "licenseNumber": "MD-12345678",
+      "yearsOfExperience": 8,
+      "bio": "Experienced cardiologist specializing in preventive heart care and cardiac interventions.",
+      "availability": [
+        {
+          "id": "slot1",
+          "dayOfWeek": 1,
+          "startTime": "09:00",
+          "endTime": "17:00",
+          "isAvailable": true
+        },
+        {
+          "id": "slot2",
+          "dayOfWeek": 2,
+          "startTime": "09:00",
+          "endTime": "17:00",
+          "isAvailable": true
+        },
+        {
+          "id": "slot3",
+          "dayOfWeek": 3,
+          "startTime": "09:00",
+          "endTime": "17:00",
+          "isAvailable": true
+        },
+        {
+          "id": "slot4",
+          "dayOfWeek": 4,
+          "startTime": "09:00",
+          "endTime": "17:00",
+          "isAvailable": true
+        },
+        {
+          "id": "slot5",
+          "dayOfWeek": 5,
+          "startTime": "09:00",
+          "endTime": "15:00",
+          "isAvailable": true
+        }
+      ]
+    },
+    {
+      "id": "doctor2",
+      "email": "dr.james.brown@clinic.com",
+      "password": "password123",
+      "role": "doctor",
+      "firstName": "Dr. James",
+      "lastName": "Brown",
+      "phone": "(555) 567-8901",
+      "specialty": "Internal Medicine",
+      "licenseNumber": "MD-87654321",
+      "yearsOfExperience": 12,
+      "bio": "Board-certified internist with expertise in managing complex medical conditions.",
+      "availability": [
+        {
+          "id": "slot6",
+          "dayOfWeek": 1,
+          "startTime": "08:00",
+          "endTime": "16:00",
+          "isAvailable": true
+        },
+        {
+          "id": "slot7",
+          "dayOfWeek": 2,
+          "startTime": "08:00",
+          "endTime": "16:00",
+          "isAvailable": true
+        },
+        {
+          "id": "slot8",
+          "dayOfWeek": 3,
+          "startTime": "08:00",
+          "endTime": "16:00",
+          "isAvailable": true
+        },
+        {
+          "id": "slot9",
+          "dayOfWeek": 4,
+          "startTime": "08:00",
+          "endTime": "16:00",
+          "isAvailable": true
+        }
+      ]
+    },
+    {
+      "id": "doctor3",
+      "email": "dr.lisa.davis@clinic.com",
+      "password": "password123",
+      "role": "doctor",
+      "firstName": "Dr. Lisa",
+      "lastName": "Davis",
+      "phone": "(555) 678-9012",
+      "specialty": "Pediatrics",
+      "licenseNumber": "MD-13579246",
+      "yearsOfExperience": 6,
+      "bio": "Dedicated pediatrician providing comprehensive care for children and adolescents.",
+      "availability": [
+        {
+          "id": "slot10",
+          "dayOfWeek": 1,
+          "startTime": "10:00",
+          "endTime": "18:00",
+          "isAvailable": true
+        },
+        {
+          "id": "slot11",
+          "dayOfWeek": 2,
+          "startTime": "10:00",
+          "endTime": "18:00",
+          "isAvailable": true
+        },
+        {
+          "id": "slot12",
+          "dayOfWeek": 3,
+          "startTime": "10:00",
+          "endTime": "18:00",
+          "isAvailable": true
+        },
+        {
+          "id": "slot13",
+          "dayOfWeek": 5,
+          "startTime": "10:00",
+          "endTime": "18:00",
+          "isAvailable": true
+        }
+      ]
+    }
+  ],
+  "receptionists": [
+    {
+      "id": "receptionist1",
+      "email": "admin@clinic.com",
+      "password": "password123",
+      "role": "receptionist",
+      "firstName": "Maria",
+      "lastName": "Garcia",
+      "phone": "(555) 789-0123",
+      "department": "Front Desk"
+    },
+    {
+      "id": "receptionist2",
+      "email": "reception@clinic.com",
+      "password": "password123",
+      "role": "receptionist",
+      "firstName": "Jennifer",
+      "lastName": "Lee",
+      "phone": "(555) 890-1234",
+      "department": "Administration"
+    }
+  ]
+}
